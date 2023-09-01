@@ -1,0 +1,46 @@
+h1 {
+    color: green;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.usdSpan {
+    color: blue;
+}
+
+.contenedorForm {
+    padding: 50px 50px 0px;
+}
+
+.paymentsContainer {
+    display: grid;
+    grid-auto-rows: auto;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    padding: 0 0 20px;
+}
+
+.paymentsContainer>div:first-of-type {
+    background-color: gray;
+    color: white
+}
+
+.paymentsContainer>div {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    background-color: lightgray;
+    text-align: center;
+    padding: 0 5px;
+}
+
+#lastPaymentPlanContainer {
+    padding: 25px 50px;
+}
